@@ -1,7 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+}
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #2ec1ac;
 }
-
+.btn {
+  border: none;
+  background-color: #d2e603;
+  color: #3e978b;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+#drum-machine {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 10px;
+  width: 50%;
+  min-width: 300px;
+  background-color: #eff48e;
+  padding: 1rem;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
